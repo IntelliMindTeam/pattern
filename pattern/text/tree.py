@@ -34,7 +34,7 @@
 from itertools import chain
 try:
     from itertools import izip
-except:
+except ImportError:
     izip = zip  # Python 3
 
 try:
